@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "shreyanewaskar27/vartaverse-v1:latest" // lowercase is safer
-        IMAGE_TAG = "3.0.0"
+        IMAGE_NAME = "shreyanewaskar27/vartaverse-v1" // lowercase is safer
+        IMAGE_TAG = "latest"
     }
 
     stages {
